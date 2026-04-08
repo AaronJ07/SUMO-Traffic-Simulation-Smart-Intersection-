@@ -6,6 +6,8 @@ Install SUMO:
 👉 https://www.eclipse.org/sumo/
 Make sure SUMO is added to your system PATH bu using this command in CMD: sumo --version
 
+*The road network is automatically generated using Simulation of Urban MObility (netconvert tool).
+
 🚀 How to Run the Simulation
 1. Navigate to project folder: cd your-project-folder
 
