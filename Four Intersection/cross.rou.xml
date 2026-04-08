@@ -1,0 +1,12 @@
+<routes>
+    <vType id="car" vClass="passenger" guiShape="passenger" length="5.0" color="yellow"/>
+    <vType id="truck" vClass="truck" guiShape="truck" length="12.0" color="yellow"/>
+
+    <route id="route_NS" edges="N2C C2S"/> 
+    <route id="route_WE" edges="W2C C2E"/> 
+    <route id="route_SE" edges="S2C C2E"/> 
+
+    <flow id="flow_cars" type="car" route="route_NS" begin="0" end="1000" probability="0.3"/>
+    <flow id="flow_trucks" type="truck" route="route_WE" begin="0" end="1000" probability="0.1"/>
+    <flow id="flow_turning" type="car" route="route_SE" begin="0" end="1000" probability="0.2"/>
+</routes>
