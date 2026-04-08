@@ -8,6 +8,8 @@ Make sure SUMO is added to your system PATH bu using this command in CMD: sumo -
 
 *The road network is automatically generated using Simulation of Urban MObility (netconvert tool).
 
+Command: netconvert --node-files=cross.nod.xml --edge-files=cross.edg.xml --output-file=cross.net.xml
+
 🚀 How to Run the Simulation
 1. Navigate to project folder: cd your-project-folder
 
